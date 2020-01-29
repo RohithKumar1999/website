@@ -58,13 +58,13 @@ class App extends React.Component {
                 <MDBCollapse isOpen={this.state.collapsed} navbar>
                   <MDBNavbarNav left>
                     <MDBNavItem >
-                      <MDBNavLink to="#!">Home</MDBNavLink>
+                      <MDBNavLink >Home</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="#!">Project</MDBNavLink>
+                      <MDBNavLink >Project</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="#!">About</MDBNavLink>
+                      <MDBNavLink >About</MDBNavLink>
                     </MDBNavItem>
                   </MDBNavbarNav>
                   <MDBNavbarNav right>
@@ -103,7 +103,7 @@ class App extends React.Component {
                     <h6 className="mb-4">
                       Check out whether Stock Increased or Decreased!
                     </h6>
-                    <h4>For More Click <a href="#">About</a></h4>
+                    <h4>For More Click </h4>
                     <MDBBtn color="white">Click Here</MDBBtn>
                     
                   </MDBAnimation>
